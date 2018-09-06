@@ -1,14 +1,29 @@
 {
   "name": "zombiebox-extension-about",
-  "version": "0.2.1",
-  "main": "zombiebox-extension.js",
+  "description": "ZombieBox extension for displaying main info about an application",
+  "version": "0.3.0",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/interfaced/zombiebox-extension-about/issues"
-  },
-  "homepage": "https://github.com/interfaced/zombiebox-extension-about",
+  "author": "Interfaced (http://interfaced.tv)",
   "files": [
-    "lib/",
-    "zombiebox-extension.js"
-  ]
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "zombiebox",
+    "zombiebox-extension",
+    "about",
+    "info"
+  ],
+  "scripts": {
+    "lint": "eslint index.js lib"
+  },
+  "devDependencies": {
+    "eslint": "5.4.0",
+    "eslint-config-interfaced": "1.1.0",
+    "eslint-plugin-goog": "1.0.0",
+    "eslint-plugin-interfaced": "1.1.2"
+  }
 }

@@ -4,7 +4,7 @@
 .p-zb-about {}
 	.p-zb-about__container {
 		width: 360px;
-		height: 140px;
+		min-height: 140px;
 		background: #fff url(about.png) 10px 50% no-repeat;
 		color: #000;
 		box-sizing: border-box;
