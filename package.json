@@ -1,6 +1,6 @@
 {
   "name": "zombiebox-extension-about",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "zombiebox-extension.js",
   "license": "MIT",
   "bugs": {
