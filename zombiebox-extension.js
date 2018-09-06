@@ -1,39 +1,34 @@
-var path = require('path');
+const path = require('path');
 
 
 /**
  * @implements {IZBAddon}
  */
-var extension = function() {
+class AboutExtension {
+	/**
+	 * @override
+	 */
+	getName() {
+		return 'about';
+	}
 
-};
+	/**
+	 * @override
+	 */
+	getPublicDir() {
+		return path.join(__dirname, 'lib');
+	}
 
-
-/**
- * @return {string}
- */
-extension.prototype.getName = function() {
-	return 'about';
-};
-
-
-/**
- * @return {string}
- */
-extension.prototype.getPublicDir = function() {
-	return path.join(__dirname, 'lib');
-};
-
-
-/**
- * @return {Object}
- */
-extension.prototype.getConfig = function() {
-	return {};
-};
+	/**
+	 * @override
+	 */
+	getConfig() {
+		return {};
+	}
+}
 
 
 /**
  * @type {IZBAddon}
  */
-module.exports = extension;
+module.exports = AboutExtension;
