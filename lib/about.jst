@@ -1,7 +1,17 @@
 {{$ zb.ext.about.popups.templates.about }}
 
-<div class="zb-center">
-	<div class="zb-center__cell">
-		<div class="zb-center__container p-zb-about__container" data-export-id="{{@content}}"></div>
+<div class="p-zb-about">
+	<div class="p-zb-about__container" data-export-id="{{@popupContainer}}">
+		<div class="p-zb-about__slider" data-export-id="{{@slider}}">
+			<div class="p-zb-about__header">
+				<div class="p-zb-about__logo"></div>
+				<div class="p-zb-about__title"><span>ZombieBox</span> Application</div>
+				<div class="p-zb-about__copyright">zombiebox.tv © Interfaced</div>
+			</div>
+			<div class="p-zb-about__content" data-export-id="{{@content}}"></div>
+		</div>
+		<div class="p-zb-about__btn _exit" data-component="{{% zb.ui.Button, {}, btnExit }}"></div>
+		<div class="p-zb-about__btn _up" data-component="{{% zb.ui.Button, {}, arrowUp }}"></div>
+		<div class="p-zb-about__btn _down" data-component="{{% zb.ui.Button, {}, arrowDown }}"></div>
 	</div>
 </div>

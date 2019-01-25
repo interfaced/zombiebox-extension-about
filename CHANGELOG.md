@@ -1,5 +1,9 @@
 # Change log
 
+## 0.4.0 (release date: 25.01.2019)
+
+* Major visual redesign of popup.
+
 ## 0.3.0 (release date: 27.08.2018)
 
 * Added device info(type, versions, model, resolution, locale, etc.) to default popup data

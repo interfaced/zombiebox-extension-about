@@ -1,7 +1,7 @@
 {
   "name": "zombiebox-extension-about",
   "description": "ZombieBox extension for displaying main info about an application",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
   "author": "Interfaced (http://interfaced.tv)",
   "files": [
@@ -25,5 +25,8 @@
     "eslint-config-interfaced": "1.1.0",
     "eslint-plugin-goog": "1.0.0",
     "eslint-plugin-interfaced": "1.1.2"
+  },
+  "peerDependencies": {
+    "zombiebox": "1.0.0-beta6"
   }
 }
