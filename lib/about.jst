@@ -1,4 +1,4 @@
-{{$ zb.ext.about.popups.templates.about }}
+{{+ import Button from "ui/widgets/button/button"; }}
 
 <div class="p-zb-about">
 	<div class="p-zb-about__container" data-export-id="{{@popupContainer}}">
@@ -10,8 +10,8 @@
 			</div>
 			<div class="p-zb-about__content" data-export-id="{{@content}}"></div>
 		</div>
-		<div class="p-zb-about__btn _exit" data-component="{{% zb.ui.Button, {}, btnExit }}"></div>
-		<div class="p-zb-about__btn _up" data-component="{{% zb.ui.Button, {}, arrowUp }}"></div>
-		<div class="p-zb-about__btn _down" data-component="{{% zb.ui.Button, {}, arrowDown }}"></div>
+		<div class="p-zb-about__btn _exit" data-component="{{% Button, {}, btnExit }}"></div>
+		<div class="p-zb-about__btn _up" data-component="{{% Button, {}, arrowUp }}"></div>
+		<div class="p-zb-about__btn _down" data-component="{{% Button, {}, arrowDown }}"></div>
 	</div>
 </div>

@@ -1,15 +1,21 @@
 {
   "name": "zombiebox-extension-about",
   "description": "ZombieBox extension for displaying main info about an application",
-  "version": "0.4.0",
+  "version": "2.0.0",
   "license": "MIT",
-  "author": "Interfaced (http://interfaced.tv)",
+  "author": "Interfaced (https://interfaced.tv)",
+  "homepage": "https://github.com/interfaced/zombiebox-extension-about",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:interfaced/zombiebox-extension-about.git"
+  },
+  "module": "lib/",
   "files": [
     "LICENSE",
     "README.md",
     "CHANGELOG.md",
     "index.js",
-    "lib"
+    "lib/"
   ],
   "keywords": [
     "zombiebox",
@@ -21,12 +27,18 @@
     "lint": "eslint index.js lib"
   },
   "devDependencies": {
-    "eslint": "5.4.0",
-    "eslint-config-interfaced": "1.1.0",
-    "eslint-plugin-goog": "1.0.0",
-    "eslint-plugin-interfaced": "1.1.2"
+    "eslint": "^5.16.0",
+    "eslint-config-interfaced": "^1.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-interfaced": "^1.6.1",
+    "eslint-plugin-node": "^9.1.0",
+    "zombiebox": "^2.0.1",
+    "zombiebox-extension-cutejs": "^1.2.0"
   },
   "peerDependencies": {
-    "zombiebox": "1.0.0-beta6"
+    "zombiebox": "^2.0.1",
+    "zombiebox-extension-ui": "^2.0.0",
+    "zombiebox-extension-cutejs": "^1.2.0"
   }
 }

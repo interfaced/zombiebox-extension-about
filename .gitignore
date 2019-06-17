@@ -2,3 +2,5 @@
 .DS_Store
 node_modules
 npm-debug.log
+
+fake.webpack.config.js
