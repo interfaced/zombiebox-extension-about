@@ -9,6 +9,7 @@
     "type": "git",
     "url": "git@github.com:interfaced/zombiebox-extension-about.git"
   },
+  "type": "module",
   "module": "lib/",
   "files": [
     "LICENSE",
